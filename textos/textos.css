@@ -2,7 +2,7 @@ body{
     background-color: cyan;
 }
 
-p{
+p.especial{
     color:blue;
     background-color: blueviolet;
 }
