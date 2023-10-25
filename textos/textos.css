@@ -1,4 +1,10 @@
-*{
-    color:rgb(133,33,99);
-    background-color:rgb(0,0,0);
+@font-face {
+    font-family: "Regulardisplay";
+    src: url("fonts/SedgwickAveDisplay-Regular.ttf");
+}
+
+p.font{
+    font-family: "Regulardisplay", cursive;
+    font-size: 150%;
+    color:orangered
 }
