@@ -11,6 +11,13 @@
       li{
         list-style-type:square;
       }
+      p{
+        background-color: black;
+        color:aliceblue
+      }
+      p::first-letter{
+        color: blueviolet;
+      }
       p.p1{
         color:crimson
       }
@@ -29,12 +36,28 @@
         background-color: coral;
         color:crimson
       }
+      input:focus{
+        background-color: plum;
+        border-color: blue;
+      }
+      q:lang(es){
+        quotes:'"' '"' ;
+        color:aquamarine
+      }
+      thead>tr, tfoot>tr{
+        background-color: brown;
+      }
     </style>
   </head>
   <body>
+    <p>Platón <q lang="es">solo sé que no sé nada</q></p>
 <p class="p1">Esto es un parrafo con texto crimson, fondo negro </p>
 <p class="mayúsculas">Esto es un parrafo con texto coral, fondo negro pero en mayúsculas</p>
 <a href="https://www.mclibre.org/consultar/htmlcss/" target="_blank">enlace mclibre</a>
+<legend>Datos personales</legend>
+<label>Nombre:<input type="nombre"></label>
+<label>Apellidos: <input type="Apellido"></label>
+<label>Email: <input type="email"></label>
     <div>
     <ul>
     <h1>Esto es un encabezado h1</h1>
@@ -76,5 +99,60 @@
         <li>vender</li>
       </ul>
     </ol>
+
+    <table>
+      <thead>
+        <tr>
+          <td>Concepto</td>
+          <td>Primer semestre</td>
+          <td>Segundo semestre</td>
+          <td>TOTAL</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alimentación</td>
+         <td>1500</td>
+         <td>1750</td>
+         <td>3250</td>
+        </tr>
+        <tr>
+          <td>Tecnología</td>
+         <td>1500</td>
+         <td>1750</td>
+         <td>3250</td>
+        </tr>
+        <tr>
+          <td>Deporte</td>
+         <td>1500</td>
+         <td>1750</td>
+         <td>3250</td>
+        </tr>
+        <tr>
+          <td>Calzado</td>
+         <td>1500</td>
+         <td>1750</td>
+         <td>3250</td>
+        </tr>
+        <tr>
+          <td>Viajes</td>
+         <td>1500</td>
+         <td>1750</td>
+         <td>3250</td>
+        </tr>
+        <tr>
+          <td>Papelería</td>
+         <td>1500</td>
+         <td>1750</td>
+         <td>3250</td>
+        </tr>
+        <tr>
+          <td>TOTAL</td>
+         <td>0000</td>
+         <td>0000</td>
+         <td>0000</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
