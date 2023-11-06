@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       thead>tr, tfoot>tr{
+       thead, tfoot>tr{
         background-color: brown;
         color:white;
         text-transform: uppercase;  
@@ -19,11 +19,12 @@
     }
     tbody>tr:nth-child(even){
         background-color: white;
-        color: brown;
+        color: blue;
     }
+    </style>
 </head>
-
-<table>
+<body>
+<table border="2px">
     <thead>
       <tr>
         <td>Concepto</td>
@@ -70,11 +71,14 @@
        <td>3250</td>
       </tr>
       <tr>
+        <tfoot>
         <td>TOTAL</td>
        <td>0000</td>
        <td>0000</td>
        <td>0000</td>
+      </tfoot>
       </tr>
     </tbody>
   </table>
+</body>
   </html>
