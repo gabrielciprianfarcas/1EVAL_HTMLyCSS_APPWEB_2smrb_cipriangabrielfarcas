@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>clear (2). Posicionamiento flotante. HTML. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    hr {
+      clear: both;
+    }
+    img.toro {
+      float: left;
+    }
+    img.pingu {
+      float:right
+    }
+  </style>
+</head>
+
+<body>
+  <p ><img src="gnu-head-sm.jpg" class="toro">El logotipo de GNU debe "flotar" a la izquierda y el párrafo debe fluir a su derecha.</p>
+
+  <hr style="clear:both">
+
+  <p ><img src="tux.jpg" class="pingu">El logotipo de Linux, Tux, debe "flotar" a la izquierda y el párrafo debe fluir a su derecha. La línea intermedia impide que se monten sobre el párrafo anterior.</p>
+</body>
+</html>
