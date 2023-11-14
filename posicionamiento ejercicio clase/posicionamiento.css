@@ -1,0 +1,38 @@
+*{
+    background-color: ghostwhite;
+}
+body.container {
+    background-color: green;
+}
+nav{
+
+}
+figcaption{
+    background-color: white;
+    text-align: center;
+}
+figure#li1{
+    border: 2px black solid;
+    background-color: white;
+    padding: 20px;
+    width: fit-content;
+}
+figure#li2{
+    border: 2px black solid;
+    background-color: white;
+    padding: 20px;
+    width: fit-content;
+}
+figure#li3{
+    border: 2px black solid;
+    background-color: white;
+    padding: 20px;
+    width: fit-content;
+}
+figure#li4{
+    border: 2px black solid;
+    background-color: white;
+    padding: 20px;
+    width: fit-content;
+}
+
