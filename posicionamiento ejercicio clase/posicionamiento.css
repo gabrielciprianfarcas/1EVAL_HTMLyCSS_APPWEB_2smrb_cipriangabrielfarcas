@@ -1,12 +1,46 @@
 *{
-    background-color: ghostwhite;
+    background-color: lightgray;
+    box-sizing: border-box;
 }
-body.container {
-    background-color: green;
+.fixed-sidebar img{
+    width: 50px;
+    height: 50px;
 }
-nav{
+.fixed-sidebar{
+    border: 1px black solid ;
+    width:80px;
+    height:233px;
+    padding: 2px;
+    position: fixed;
+    top: 300px;
+    left: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+div.fixed-sidebar ul {
+    list-style-type: none;
+    padding-left: 0px;
+    text-align:center;
+}
+.container{
+    border:1px black solid;
+    width: 80% ;
+    height:700px ;
+    margin: 20px auto;
+    background-color: lightgreen;
 
 }
+nav{
+    background-color: #2c2c2c;
+    padding:20px;
+}
+.nav-item{
+    background-color: #2c2c2c;
+    display: inline;
+    color: white;
+    padding-right: 133px;
+}
+.st
 figcaption{
     background-color: white;
     text-align: center;
@@ -16,23 +50,34 @@ figure#li1{
     background-color: white;
     padding: 20px;
     width: fit-content;
+    border-radius: 20px;
+    position:absolute;
+    margin:3px
 }
 figure#li2{
-    border: 2px black solid;
+    border: 2px black solid ;
     background-color: white;
     padding: 20px;
     width: fit-content;
+    border-radius: 20px;
+    position: absolute;
+    margin: 3px;
 }
 figure#li3{
     border: 2px black solid;
     background-color: white;
     padding: 20px;
     width: fit-content;
+    border-radius: 20px;
+    position: absolute;
+    margin:3px;
 }
 figure#li4{
     border: 2px black solid;
     background-color: white;
     padding: 20px;
     width: fit-content;
+    border-radius: 20px;
+    position: absolute;
+    margin: 3px;
 }
-
