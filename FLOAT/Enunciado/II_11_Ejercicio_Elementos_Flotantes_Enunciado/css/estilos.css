@@ -1,0 +1,50 @@
+
+ h1{
+ text-align: center;
+ }
+ nav{
+ background-color: #000000;
+ color: white;
+ padding:20px;
+ margin-bottom: 50px;
+ }
+ .menu-item{
+ display: inline;
+ margin: 5% 5%;
+ }
+ .sidebar > .menu-item{
+ display: block;
+ }
+ .sidebar{
+ background-color: black;
+ color: white;
+ width: 15%;
+ height: 633px;
+ float: left;
+ box-sizing: border-box;
+ margin-right: 5%;
+ }
+ .course{
+ float: left;
+ border: 1px solid black;
+ width: 25%;
+ border-radius: 5px;
+ margin-top: 50px;
+ margin: 1px;
+ text-align: center;
+ }
+ article{
+ float: left;
+ width: 25%;
+ margin-right: 1px;
+ margin-top: 1%;
+ }
+ footer{
+ float: left;
+ background-color: lightgray;
+width: 100%;
+padding: 20px;
+text-align: center;
+margin-bottom: 0px;
+
+}
